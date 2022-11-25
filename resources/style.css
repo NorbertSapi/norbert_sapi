@@ -10,12 +10,10 @@ body {
   /* Navbar container */ /**************************************** change nav bar direction ********************************************/
   .navbar {
     overflow: hidden;
-    /*background-color: rgb(93, 7, 110);*/
     font-family: Arial;
     direction: rtl;
     display: flex;
     flex-direction: row-reverse;
-    /*float: right;*/
   }
   
   /* Links inside the navbar */
@@ -110,7 +108,7 @@ body {
   
   /****************************** Main *************************************/
 
-  /************ ABout ************/ /******************** wrap around img ********************************/
+  /************ ABout ************/ 
 
   .img_me{
     float: left;
@@ -123,4 +121,19 @@ body {
     text-align: justify;
     margin: 0.5rem;
     line-height: 1.6;
+    font-size: 1.5rem;
+  }
+
+
+  /********************************** WORK *****************************/
+
+  /************ JavaSript **************/
+  #js_img {
+    height: 250px;
+  }
+
+  #js_img:hover {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
