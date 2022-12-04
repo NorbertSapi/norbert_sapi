@@ -124,7 +124,26 @@ body {
     font-size: 1.5rem;
   }
 
+    
+  .unvisible__text {
+    display: flex;
+  }
 
+  .unvisible__text:hover{
+    display:block; 
+  }
+
+  #pink {
+    color: pink;
+  }
+
+  #green {
+    color: #1DBF73;
+  }
+
+  #blue{
+    color: blue;
+  }
   /********************************** WORK *****************************/
 
   /************ JavaSript **************/
