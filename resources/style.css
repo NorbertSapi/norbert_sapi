@@ -14,6 +14,7 @@ body {
     direction: rtl;
     display: flex;
     flex-direction: row-reverse;
+    border: 3px solid yellow;
   }
   
   /* Links inside the navbar */
@@ -86,8 +87,9 @@ body {
   h1 {
     color: white;
     margin-right: auto;
-    margin-left: 0;
-    float: left;
+    margin-left: 4rem;
+    font-size: 2rem;
+    /*float: left;*/
   }
 
   #home{
@@ -112,9 +114,8 @@ body {
 
   .img_me{
     float: left;
-    margin: 0.3rem;
-    /*height: 450px;
-    width: auto;*/
+    margin: 3rem;
+    padding: 2rem;
   }
 
   p {
@@ -124,13 +125,20 @@ body {
     font-size: 1.5rem;
   }
 
-    
-  .unvisible__text {
-    display: flex;
+  .visiblity__button {
+    color: black;
+    font-size: 3rem;
   }
 
-  .unvisible__text:hover{
-    display:block; 
+    
+  .unvisible__text {
+    display: none;
+    border: 4px solid grey;
+    padding: 1rem;
+  }
+
+  .visiblity__button:hover + .unvisible__text {
+    display: flex; 
   }
 
   #pink {
@@ -202,6 +210,8 @@ body {
     }
 
 
+
+
     /********styling the JS section + addign new code sample 
     https://www.geeksforgeeks.org/how-to-create-animated-navigation-bar-with-hover-effect-using-html-and-css/ *************/
 
@@ -270,8 +280,8 @@ body {
       background-color: #fafafa;
       transform-origin: top left;
       transition: transform 0.5s linear;
-      width: 100vw;
-      min-height: 100vh;
+      /*width: 100vw;*/
+      min-height: 50vh;
       padding: 50px;
     }
      
