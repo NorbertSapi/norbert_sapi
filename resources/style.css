@@ -112,6 +112,10 @@ body {
 
   /************ ABout ************/ 
 
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
   .img_me{
     float: left;
     margin: 3rem;
