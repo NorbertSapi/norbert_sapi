@@ -116,10 +116,15 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .img_me{
+  .about_text {
+    border: 3px solid yellow ;
+  }
+
+  .img_me {
     float: left;
-    margin: 3rem;
+    margin-left: 3rem;
     padding: 2rem;
+    display: flex;
   }
 
   p {
@@ -132,6 +137,7 @@ body {
   .visiblity__button {
     color: black;
     font-size: 3rem;
+    margin-right: 3rem;
   }
 
     
@@ -142,7 +148,7 @@ body {
   }
 
   .visiblity__button:hover + .unvisible__text {
-    display: flex; 
+    display: flex;
   }
 
   #pink {
@@ -174,7 +180,7 @@ body {
     height: 300%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 3rem;
     background-color: white;
     opacity: 9;
   }
