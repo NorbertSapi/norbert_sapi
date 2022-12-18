@@ -379,7 +379,7 @@ body {
   .pop_up{
   perspective: 450px;
   }
-  /***************************************************fix pop_up section***************/
+  /***************************************************fix pop_up section*********/
   #pop_up img,
   .pop_up_left img {
     transition: 100ms;
