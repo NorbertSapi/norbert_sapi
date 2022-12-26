@@ -500,6 +500,8 @@ border: none;
 
 /*********************************************** Footer *********************************************/
 
+/**************** I am here, hide phone number ******/
+
 
 footer {
   position: fixed;
@@ -510,7 +512,7 @@ footer {
   margin-bottom: 1rem;
   color: white;
   width: 15rem;
-  height: 5rem;
+  height: 7rem;
 }
 
 #email,
