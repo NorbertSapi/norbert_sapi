@@ -255,16 +255,18 @@ body {
 .rotate-text {
   font: normal 2.5em/1.2 sans-serif;
   color: #A4BB28;
-  height: 1.2em;
+  height: 1.1em;
   width: 100%;
   position: relative;
   overflow: hidden;
   padding: 0 0 0.1em 0;
+  background-color: black;
+  padding: 0.8rem;
 }
 .rotate-text > span {
   float: left;
   margin-right: 0.3em;
-  height: 1.2em;
+  height: 0.3rem;
 }
 .rotate-text > span:last-of-type {
   font-weight: 500;
