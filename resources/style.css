@@ -18,10 +18,10 @@ body {
 
   h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
     height: 2rem;
   }
 
+  .content h2,
   .content h3 {
     color: black
   }
@@ -246,7 +246,13 @@ body {
   .content p {
     color: #333;
     line-height: 1.5;
-  }                       
+  } 
+  
+  .fa-bars:before {
+    content: "\f0c9";
+  }
+  ::before {
+  }
   
   /************************************************************************** MAIN *******************************************************************************************************/
 
