@@ -13,7 +13,7 @@ h1 {
   color: white;
   margin-right: auto;
   margin-left: 4rem;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 h2{
@@ -219,6 +219,7 @@ animation-delay: 6s;
   font-size: 3rem;
 }
 
+/*
 #about {
   color: black;
   padding: 0.2rem;
@@ -227,7 +228,7 @@ animation-delay: 6s;
   margin-left: 1rem;
   margin-right: auto;
   text-decoration: underline;
-}
+}*/
 
 .about_text {
   border: 3px solid yellow ;
@@ -244,11 +245,11 @@ animation-delay: 6s;
 
 
 /*trial*/
-.visiblity__button,
+.default                                                                                                                                                                                                  ,
 .hover {
   text-align: left;
   margin-right: auto;
-  margin-left: 40%;
+  /*margin-left: 40%;*/ 
   color: black;
   font-size: 3rem;
   font-weight: bold;
@@ -265,13 +266,13 @@ animation-delay: 6s;
   color: yellow;
   white-space: nowrap;
 }
-.wrap {
+.container_change_color {
   position: relative;
   display: inline-block;
 }
-.wrap:hover .hover {
+.container_change_color:hover .hover {
   width: 100%;
-  animation: stagger 2s steps(453);
+  animation: stagger 3s steps(453);
 }
 @keyframes stagger {
   from {width: 0;}
