@@ -1,9 +1,7 @@
 body {
-  /*background-color: rgb(202, 96, 167);*/
   background-color: dimgrey;
   font-size: 16px;
   margin: 3rem 6rem;
-  border: 4px solid white;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -46,7 +44,6 @@ p {
   direction: rtl;
   display: flex;
   flex-direction: row-reverse;
-  border: 3px solid yellow;
 }
 
 /* Links inside the navbar */
@@ -250,7 +247,6 @@ animation-delay: 6s;
 .hover {
   text-align: left;
   margin-right: auto;
-  /*margin-left: 40%;*/ 
   color: black;
   font-size: 3rem;
   font-weight: bold;
@@ -284,7 +280,6 @@ animation-delay: 6s;
 /*EREDETI */
 .unvisible__text {
   display: none;
-  border: 4px solid grey;
   padding: 1rem;
 }
 
