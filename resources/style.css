@@ -434,7 +434,7 @@ border: none;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
-flex-direction: row;
+/*flex-direction: row;*/
 align-items:center;
 border: none;
 }
