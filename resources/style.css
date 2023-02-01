@@ -437,6 +437,11 @@ justify-content: space-evenly;
 /*flex-direction: row;*/
 align-items:center;
 border: none;
+margin-left: auto;
+margin-right: auto;
+height: 9rem;
+width: 9rem;
+border: 1px solid black;
 }
 
 .image_icon{
