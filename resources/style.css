@@ -422,6 +422,8 @@ padding: 1rem;
 }
 
 .contact_us {
+display: flex;
+flex-wrap: wrap;
 text-align: center;
 margin: 5px auto;
 /*background-color: powderblue;*/
