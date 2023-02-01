@@ -336,6 +336,10 @@ animation-delay: 6s;
     list-style: none;
     }
 
+#work {
+  margin-top: 5rem;
+}
+
 /************ JavaSript **************/
 
 #wrapper {
