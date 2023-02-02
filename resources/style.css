@@ -11,25 +11,33 @@ h1 {
   color: white;
   margin-right: auto;
   margin-left: 4rem;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: capitalize;
+}
+
+.one{
+  border: 1px solid black;
 }
 
 h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 2rem;
+  font-size: 2rem;
 }
 
-.content h2,
-.content h3 {
-  color: black
+.h2_tittle {
+  color: black;
+  float: right;
+}
+
+h3{
+  font-size: 1.5rem;
 }
 
 p {
   text-align: justify;
   margin: 0.5rem;
   line-height: 1.6;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #cat {
@@ -127,157 +135,39 @@ p {
   border-radius: 25px 0 0 25px;
 }
 
-/************* secret ******************/
-
-.container {
-  background-color: #fafafa;
-  transform-origin: top left;
-  transition: transform 0.5s linear;
-  /*width: 100vw;*/
-  min-height: 50vh;
-  padding: 50px;
-}
-
 
 /************************************************************************** MAIN *******************************************************************************************************/
-
-/************* Rotating Nav Bar ********/
-
-.rotate-text {
-font: normal 2.5em/1.2 sans-serif;
-color: #A4BB28;
-height: 1.1em;
-width: 100%;
-
-position: relative;
-overflow: hidden;
-padding: 0 0 0.1em 0;
-background-color: black;
-padding: 0.8rem 0.4rem;
-margin: 0.3rem auto;
-
-}
-.rotate-text > span {
-float: left;
-margin-right: 0.3em;
-height: 0.3rem;
-}
-.rotate-text > span:last-of-type {
-font-weight: 500;
-display: inline-block;
-color: #d62121;
-position: relative;
-white-space: nowrap;
-bottom: 0;
-left: 0;
-animation: ticker 10s;
-animation-iteration-count: infinite;
-animation-delay: 6s;
-}
-
-@keyframes ticker {
-0% {
-  bottom: 0;
-}
-10% {
-  bottom: 0;
-}
-20% {
-  bottom: 1.2em;
-}
-30% {
-  bottom: 1.2em;
-}
-40% {
-  bottom: 2.4em;
-}
-50% {
-  bottom: 2.4em;
-}
-60% {
-  bottom: 3.6em;
-}
-70% {
-  bottom: 3.6em;
-}
-}
-
-#navbar {
-
-}
 
 
 /************ ABout ************/ 
 
+#container_about{
+  background-color: white;
+}
 .visiblity__button {
   text-align: left;
   margin-right: auto;
   margin-left: 40%;
   color: black;
-  font-size: 3rem;
 }
-
-/*
-#about {
-  color: black;
-  padding: 0.2rem;
-  width: 7rem;
-  text-align: center;
-  margin-left: 1rem;
-  margin-right: auto;
-  text-decoration: underline;
-}*/
 
 .about_text {
   border: 3px solid yellow ;
 }
 
-.img_me {
-  float: left;
-  margin-left: 3rem;
-  padding: 2rem;
+.img_me,
+#cat {
   display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  padding: 2rem;
+  float: left;
+  width: 10%;
   height: auto;
-  width: auto;
+  margin: 10px auto 10px auto;
 }
 
 
-/*trial*/
-.default                                                                                                                                                                                                  ,
-.hover {
-  text-align: left;
-  margin-right: auto;
-  color: black;
-  font-size: 3rem;
-  font-weight: bold;
-  cursor:pointer;
-  left: 0;
-  top: 0;
-}
-.hover {
-  overflow: hidden;
-  width: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: yellow;
-  white-space: nowrap;
-}
-.container_change_color {
-  position: relative;
-  display: inline-block;
-}
-.container_change_color:hover .hover {
-  width: 100%;
-  animation: stagger 3s steps(453);
-}
-@keyframes stagger {
-  from {width: 0;}
-  to {width: 100%;}
-}
-
-
-/*EREDETI */
 .unvisible__text {
   display: none;
   padding: 1rem;
@@ -305,6 +195,11 @@ animation-delay: 6s;
 .small_tag {
   text-align: center;
   padding: 0.25rem auto;
+}
+
+.content {
+  margin: 6rem 1rem;
+  border: 2px solid black;
 }
 
 
