@@ -152,7 +152,7 @@ p {
 
 #container_about{
   background-color: rgb(236, 235, 165);
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 .visiblity__button {
   text-align: left;
@@ -167,7 +167,7 @@ p {
 
 .img_me {
   float: right;
-  width: 15%;
+  width: 12%;
 }
 
 #cat {
