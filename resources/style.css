@@ -26,10 +26,6 @@ h1 {
   margin-left: 10rem;
 }
 
-.one{
-  border: 1px solid black;
-}
-
 h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2rem;
@@ -56,6 +52,7 @@ p {
   margin: 1rem;
   float: left;
 }
+
 
 /* Navbar container */
 .navbar {
@@ -155,6 +152,7 @@ p {
 
 #container_about{
   background-color: rgb(236, 235, 165);
+  margin-top: 3rem;
 }
 .visiblity__button {
   text-align: left;
@@ -169,10 +167,12 @@ p {
 
 .img_me {
   float: right;
+  width: 15%;
 }
 
 #cat {
   float: left;
+  width: 10%;
 }
 
 .img_me,
@@ -181,7 +181,6 @@ p {
   flex-direction: column;
   margin: 3rem;
   padding: 2rem;
-  width: 10%;
   height: auto;
   margin: 10px auto 10px auto;
 }
@@ -352,6 +351,34 @@ max-width: 700px;
   max-width: 2rem;
   height: auto;
   padding: 2rem;
+}
+
+/***********************************************Fortune******************************************/
+
+.fortune {
+  margin: 2rem auto 8rem auto;
+  background:#043f21;
+}
+
+#fortune{
+  color: #EFBB24;
+  font-size: 24px;
+  text-align: center;
+}
+
+#buttonContainer{
+  width: fit-content;
+  margin: auto;
+}
+
+#fortuneButton{
+  padding: 10px;
+  font-size: 16px;
+  background: white;
+  border: 5px solid #D0104C;
+  border-radius: 5px;
+  color: #141c3a;
+  cursor: pointer;
 }
 
 
