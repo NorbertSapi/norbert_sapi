@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(161, 161, 161);
   font-size: 16px;
   /*margin: 3rem 6rem;*/
   color: white;
@@ -14,16 +14,31 @@ h1 {
 }
 
 #h1_hello {
-  color: rgb(116, 116, 116);
+  color: rgb(87, 87, 87);
   font-size: 2.5rem;
 }
 
 #h1_main,
 #h1_hello,
 #h1_h3 {
-  text-align:start;
+  text-align:center;
   margin-right: auto;
-  margin-left: 10rem;
+  margin-left: 30%;
+  float: left;
+}
+
+.one {
+  margin: 2rem auto;
+  border: #D0104C solid 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.img_me{
+  border: 5px solid red;
+  /*float: inline-end;*/
+  margin-right: 20rem;
 }
 
 h2{
@@ -34,7 +49,7 @@ h2{
 .h2_tittle {
   color: black;
   float: right;
-  background-color: rgb(218, 42, 150);
+  background-color: rgb(228, 120, 186);
 }
 
 h3{
@@ -166,6 +181,8 @@ p {
 }
 
 .img_me {
+  margin-right: 3rem;
+  padding-right: 6rem;
   float: right;
   width: 12%;
 }
@@ -173,14 +190,14 @@ p {
 #cat {
   float: left;
   width: 10%;
+  margin: 3rem;
+  padding: 2rem;
 }
 
 .img_me,
 #cat {
   display: flex;
   flex-direction: column;
-  margin: 3rem;
-  padding: 2rem;
   height: auto;
   margin: 10px auto 10px auto;
 }
@@ -407,4 +424,20 @@ p #mobile {
 #email,
 #mobile {
 color: aqua;
+}
+
+
+/**************************************************** Media Quaries **********************************************/
+
+/* Bigger screen */
+
+@media only screen and (max-width: 900px) {
+
+}
+
+
+/* Smaller screen - mobile */
+
+@media only screen and (max-width: 600px)  {
+
 }
