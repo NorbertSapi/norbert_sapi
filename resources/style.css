@@ -29,15 +29,12 @@ h1 {
 
 .one {
   margin: 2rem auto;
-  border: #D0104C solid 4px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
 .img_me{
-  border: 5px solid red;
-  /*float: inline-end;*/
   margin-right: 20rem;
 }
 
@@ -440,8 +437,49 @@ color: aqua;
 
 @media only screen and (max-width: 600px)  {
   /* main nav */
+  body,
   .navbar a,
   .dropdown .dropbtn {
     font-size: 0.8rem;
   }
+
+  /* h1 section */
+  .one {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  #h1_main,
+  #h1_hello,
+  #h1_h3 {
+    text-align: start;
+}
+
+.img_me {
+  float: none;
+  margin: 0.1rem;
+}
+
+/* ABOUT section */
+
+.unvisible__text {
+  display:block;
+}
+
+/* HOME button */
+
+.home {
+  font-size: 1rem;
+}
+
+
+h2,
+.h2_tittle {
+  font-size: 1rem;
+}
 }
