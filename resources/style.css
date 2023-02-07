@@ -439,5 +439,9 @@ color: aqua;
 /* Smaller screen - mobile */
 
 @media only screen and (max-width: 600px)  {
-
+  /* main nav */
+  .navbar a,
+  .dropdown .dropbtn {
+    font-size: 0.8rem;
+  }
 }
