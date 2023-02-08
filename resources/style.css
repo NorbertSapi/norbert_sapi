@@ -479,7 +479,7 @@ color: aqua;
 
 
 h2,
-.h2_tittle {
-  font-size: 1rem;
-}
+  .h2_tittle {
+    font-size: 1rem;
+  }
 }
