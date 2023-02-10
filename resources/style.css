@@ -33,9 +33,15 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: rgb(5, 129, 129);
+  position: relative;
+  z-index: -1;
 }
 .img_me{
   margin-right: 20rem;
+  position: absolute;
+  z-index: 9;
+  /*background-color: rgb(5, 129, 129);*/
 }
 
 h2{
@@ -47,6 +53,7 @@ h2{
   color: black;
   float: right;
   background-color: rgb(228, 120, 186);
+  margin-top: 2rem;
 }
 
 h3{
@@ -234,8 +241,14 @@ p {
   border: 2px solid black;
 }
 
+#cat{
+  /*position: absolute;*/
+}
+
 #cat_text{
   margin: 0px auto 20px auto;
+  position: absolute;
+  color: #141c3a;
 }
 
 /************************************************************ WORK *********************************************************************/
