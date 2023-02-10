@@ -184,7 +184,7 @@ p {
   width: 12%;
 }
 
-#cat {
+.cat {
   float: left;
   width: 10%;
   margin: 3rem;
@@ -192,7 +192,7 @@ p {
 }
 
 .img_me,
-#cat {
+.cat {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -234,6 +234,9 @@ p {
   border: 2px solid black;
 }
 
+#cat_text{
+  margin: 0px auto 20px auto;
+}
 
 /************************************************************ WORK *********************************************************************/
 

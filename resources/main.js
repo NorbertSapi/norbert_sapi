@@ -1,4 +1,15 @@
-//3. Removing Event Handlers
+
+// Enlarge my chess cake image
+
+function originalImg() {
+  $("#chess").attr('src', './resources/gallery/originalIMG.jpg');
+}
+
+function cakeImg() {
+  $("#chess").attr('src', './resources/gallery/chessboard.jpg');
+}
+
+// Daily Fortune 
 
 let fortunes = ['A beautiful, smart, and loving person will be coming into your life.',
   'A fresh start will put you on your way.',
@@ -20,7 +31,7 @@ function showFortune(){
   button.innerHTML = 'Come back tomorrow!';
   button.style.cursor = 'default';
 
-  //add your code here
+
   button.removeEventListener('click', showFortune);
 }
 
