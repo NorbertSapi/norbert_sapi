@@ -509,4 +509,8 @@ body {
     .h2_tittle {
       font-size: 1rem;
     }
+  
+    .navbar a {
+      font-size: 0.4rem;
+    }
   }
