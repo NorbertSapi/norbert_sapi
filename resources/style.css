@@ -270,6 +270,7 @@ body {
       width: 20%;
       flex-grow: 1;
       margin: 0.5rem 3rem;
+      padding: 1rem 3rem;
       list-style: none;
       }
   
@@ -423,10 +424,6 @@ body {
       border: 20px solid #fff;
       opacity: 0.3;
       }
-    
-    /*#pop_up img:hover {
-      transform: translate3d(20px,0px,20px) rotate(2deg);
-    }*/
     
     #pop_up_left img:hover {
       transform: translate3d(10px,0px,20px) rotate(1deg);
