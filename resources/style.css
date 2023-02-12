@@ -5,6 +5,10 @@ body {
     color: white;
     text-align: center;
   }
+
+  .body_contact {
+    background: linear-gradient(40deg, rgb(13, 78, 139), rgb(110, 208, 211));
+  }
   
   h1 {
     color: rgb(196, 76, 28);
