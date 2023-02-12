@@ -1,11 +1,9 @@
 
 body {
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(77, 76, 76);
     font-size: 16px;
-    /*margin: 3rem 6rem;*/
     color: white;
     text-align: center;
-    /*padding: 1rem;*/
   }
   
   h1 {
@@ -241,7 +239,6 @@ body {
   #cat_text{
     margin: 0px auto 20px auto;
     position: absolute;
-    color: #141c3a;
   }
   
   /************************************************************ WORK *********************************************************************/
